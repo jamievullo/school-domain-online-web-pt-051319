@@ -8,9 +8,9 @@ class School
     @roster = {}                          #creates and empty hash 
   end
   
-  def add_student(student, grade)     
+  def add_student(student, grade)           #looked at the "resources" and gave it a shot!!??!
     @roster[grade] ||= []                   #hash["new_key"] = [] "value array"
-    @roster[grade] << student             #hash["new_key"] << "new_value_for_value_array"
+    @roster[grade] << student               #hash["new_key"] << "new_value_for_value_array"
   end
   
   def grade(grade)
